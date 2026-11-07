@@ -1,8 +1,14 @@
 # 自走棋demo
 
-更新时间：2026-11-07。当前版本：V8。
+**招募棋子，组合羁绊，布阵升星。**
 
-基于 Godot 的 Windows 单机自走棋原型：1 名玩家与 7 名电脑对战，包含 71 名棋子、种族与职业羁绊、装备、升星、存读档和音量设置。
+**轻便版 · 下载解压即玩 · 无需登录 · 单机离线 · 类 Dota 自走棋玩法**
+
+一款使用 Godot 制作的 3D 单机自走棋游戏。与 7 名电脑对手展开对局，从 71 名棋子中组建阵容，通过种族与职业羁绊、装备搭配和站位安排应对战斗。
+
+[**下载 Windows 测试版**](https://github.com/lyoko-233/autochess-demo/releases/latest) · [反馈问题](https://github.com/lyoko-233/autochess-demo/issues)
+
+更新时间：2026-11-07。游戏版本：V8。介绍页版本：V2。Windows x64 便携 ZIP 约 361 MB，无需安装 Godot。
 
 ![游戏画面](docs/gameplay.png)
 
