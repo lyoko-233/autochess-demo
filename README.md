@@ -4,9 +4,11 @@
 
 基于 Godot 的 Windows 单机自走棋原型：1 名玩家与 7 名电脑对战，包含 71 名棋子、种族与职业羁绊、装备、升星、存读档和音量设置。
 
+![游戏画面](docs/gameplay.png)
+
 ## 下载游玩
 
-打开本仓库的 Releases，下载 Windows 便携 ZIP，完整解压后双击 `autochess.exe`。无需安装 Godot；EXE 与 `autochess.pck` 必须保持同目录。
+打开[本仓库的 Releases](https://github.com/lyoko-233/autochess-demo/releases/latest)，下载 Windows 便携 ZIP，完整解压后双击 `autochess.exe`。无需安装 Godot；EXE 与 `autochess.pck` 必须保持同目录。
 
 ## 工程开发
 
