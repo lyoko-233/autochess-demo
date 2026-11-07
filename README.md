@@ -1,3 +1,8 @@
+<p align="center">
+  <a href="README.md"><img src="https://img.shields.io/badge/语言-中文-167D8D?style=for-the-badge" alt="中文" /></a>
+  <a href="README.en.md"><img src="https://img.shields.io/badge/Language-English-167D8D?style=for-the-badge" alt="English" /></a>
+</p>
+
 # 自走棋demo
 
 **招募棋子，组合羁绊，布阵升星。**
@@ -8,7 +13,7 @@
 
 [**下载 Windows 测试版**](https://github.com/lyoko-233/autochess-demo/releases/latest) · [反馈问题](https://github.com/lyoko-233/autochess-demo/issues)
 
-更新时间：2026-11-07。游戏版本：V8。介绍页版本：V2。Windows x64 便携 ZIP 约 361 MB，无需安装 Godot。
+更新时间：2026-11-07。游戏版本：V8。介绍页版本：V3。Windows x64 便携 ZIP 约 361 MB，无需安装 Godot。
 
 ![游戏画面](docs/gameplay.png)
 
