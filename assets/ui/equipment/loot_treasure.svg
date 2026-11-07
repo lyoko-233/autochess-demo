@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+<defs><linearGradient id="metal" x2=".7" y2="1"><stop stop-color="#f3eee1"/><stop offset=".35" stop-color="#ebc66e"/><stop offset="1" stop-color="#263747"/></linearGradient></defs>
+<rect x="1" y="1" width="62" height="62" rx="7" fill="#0d1722" stroke="#ebc66e" stroke-opacity=".45"/>
+<g fill="url(#metal)" stroke="#08111b" stroke-width="2" stroke-linejoin="round"><path d="M10 28 Q10 12 32 12 Q54 12 54 28 L54 51 10 51Z"/><path d="M10 29 L54 29 M21 14 L21 51 M43 14 L43 51" fill="none" stroke="#fff0b7"/></g>
+<g fill="none" stroke="#ebc66e" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="27" y="27" width="10" height="13" rx="2"/></g></svg>

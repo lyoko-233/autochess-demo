@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="Theme"]
+
+[node name="UtilityMenu" type="PopupPanel"]
+theme = ExtResource("Theme")
+size = Vector2i(460, 370)
+
+[node name="Content" type="VBoxContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = -20.0
+offset_bottom = -20.0
+
+[node name="Heading" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "棋局菜单"
+
+[node name="Time" type="HBoxContainer" parent="Content"]
+layout_mode = 2
+
+[node name="Start" type="Button" parent="Content/Time"]
+layout_mode = 2
+text = "提前开战"
+
+[node name="Extend" type="Button" parent="Content/Time"]
+layout_mode = 2
+text = "延长备战 15 秒"
+
+[node name="Saves" type="GridContainer" parent="Content"]
+layout_mode = 2
+columns = 3
+
+[node name="PreviewToggle" type="Button" parent="Content"]
+layout_mode = 2
+text = "棋子 3D 预览"
+
+[node name="Preview" type="SubViewportContainer" parent="Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(400, 130)
+visible = false
+stretch = true
+
+[node name="World" type="SubViewport" parent="Content/Preview"]
+size = Vector2i(400, 130)
+own_world_3d = true
+render_target_update_mode = 4
+
+[node name="NewGame" type="Button" parent="Content"]
+layout_mode = 2
+text = "重新开局"

@@ -1,0 +1,39 @@
+{
+  "human_star1": 0.28,
+  "nonhuman_star1": 0.32,
+  "star2": 0.52,
+  "star3": 0.82,
+  "nonhuman_ids": [
+    "Enchantress",
+    "Tiny",
+    "Winter Wyvern",
+    "Puck",
+    "Chaos Knight",
+    "Luna",
+    "Batrider",
+    "Venomancer",
+    "Abaddon",
+    "Sand King",
+    "Viper",
+    "Treant Protector",
+    "Keeper of the Light",
+    "Disruptor",
+    "Medusa",
+    "Visage",
+    "Nyx Assassin",
+    "Gyrocopter",
+    "Techies",
+    "Io",
+    "Slardar",
+    "Mirana",
+    "Tidehunter",
+    "Timbersaw",
+    "Morphling",
+    "Enigma"
+  ],
+  "nonhuman_forms": [
+    "dragon_form",
+    "transform_wolves",
+    "metamorphosis"
+  ]
+}

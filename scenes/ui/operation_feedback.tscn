@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/ui/operation_feedback.gd" id="1"]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="2"]
+[node name="OperationFeedback" type="Control"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+theme = ExtResource("2")
+script = ExtResource("1")
+z_index = 30
+[node name="Message" type="PanelContainer" parent="."]
+visible = false
+custom_minimum_size = Vector2(300, 44)
+mouse_filter = 2
+[node name="Text" type="Label" parent="Message"]
+layout_mode = 2
+custom_minimum_size = Vector2(276, 0)
+autowrap_mode = 2
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 16
+mouse_filter = 2

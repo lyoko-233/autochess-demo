@@ -1,0 +1,46 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="Theme"]
+
+[node name="EquipmentTools" type="PopupPanel"]
+theme = ExtResource("Theme")
+size = Vector2i(420, 240)
+
+[node name="Content" type="VBoxContainer" parent="."]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 404.0
+offset_bottom = 224.0
+
+[node name="Heading" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 20
+text = "装备合成与管理"
+
+[node name="Preview" type="Label" parent="Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 48)
+autowrap_mode = 3
+text = "拖动两件装备重合，查看可合成物"
+
+[node name="Actions" type="HBoxContainer" parent="Content"]
+layout_mode = 2
+
+[node name="Use" type="Button" parent="Content/Actions"]
+layout_mode = 2
+text = "使用消耗品"
+
+[node name="Dismantle" type="Button" parent="Content/Actions"]
+layout_mode = 2
+text = "拆解合成品"
+
+[node name="Recipes" type="HBoxContainer" parent="Content"]
+layout_mode = 2
+
+[node name="Select" type="OptionButton" parent="Content/Recipes"]
+layout_mode = 2
+custom_minimum_size = Vector2(270, 36)
+size_flags_horizontal = 3
+
+[node name="Craft" type="Button" parent="Content/Recipes"]
+layout_mode = 2
+text = "合成"

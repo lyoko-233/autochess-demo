@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Script" path="res://scripts/ui/battle_unit_hud.gd" id="1"]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="2"]
+[node name="BattleUnitHUD" type="Button"]
+offset_right = 64.0
+offset_bottom = 40.0
+flat = true
+theme = ExtResource("2")
+script = ExtResource("1")
+[node name="Background" type="ColorRect" parent="."]
+visible = false
+mouse_filter = 2
+[node name="Name" type="Label" parent="."]
+visible = false
+offset_left = -40.0
+offset_top = -38.0
+offset_right = 104.0
+offset_bottom = -18.0
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 14
+theme_override_constants/outline_size = 2
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.03, 1)
+mouse_filter = 2
+[node name="State" type="Label" parent="."]
+offset_top = -20.0
+offset_right = 64.0
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 12
+theme_override_constants/outline_size = 2
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.03, 1)
+mouse_filter = 2
+[node name="Stars" type="Label" parent="."]
+offset_right = 64.0
+offset_bottom = 15.0
+horizontal_alignment = 1
+theme_override_font_sizes/font_size = 12
+theme_override_constants/outline_size = 2
+theme_override_colors/font_outline_color = Color(0.01, 0.02, 0.03, 1)
+mouse_filter = 2
+[node name="HP" type="ColorRect" parent="."]
+offset_left = 4.0
+offset_top = 16.0
+offset_right = 60.0
+offset_bottom = 22.0
+color = Color(0.025, 0.04, 0.05, 0.98)
+mouse_filter = 2
+[node name="Fill" type="ColorRect" parent="HP"]
+offset_right = 56.0
+offset_bottom = 6.0
+color = Color(0.23, 0.82, 0.43, 1)
+mouse_filter = 2
+[node name="Shield" type="ColorRect" parent="HP"]
+offset_bottom = 6.0
+color = Color(0.82, 0.86, 0.90, 1)
+mouse_filter = 2
+[node name="Mana" type="ColorRect" parent="."]
+offset_left = 4.0
+offset_top = 24.0
+offset_right = 60.0
+offset_bottom = 26.0
+color = Color(0.025, 0.04, 0.05, 0.98)
+mouse_filter = 2
+[node name="Fill" type="ColorRect" parent="Mana"]
+offset_right = 56.0
+offset_bottom = 2.0
+color = Color(0.30, 0.64, 0.98, 1)
+mouse_filter = 2
+[node name="Items" type="HBoxContainer" parent="."]
+offset_left = 4.0
+offset_top = 30.0
+offset_right = 60.0
+offset_bottom = 40.0
+theme_override_constants/separation = 1
+mouse_filter = 1

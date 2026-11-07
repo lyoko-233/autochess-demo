@@ -1,0 +1,104 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="Theme"]
+[ext_resource type="Script" path="res://scripts/ui/battle_statistics.gd" id="Statistics"]
+
+[node name="PlayersPanel" type="PanelContainer"]
+theme = ExtResource("Theme")
+
+[node name="Content" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 6
+
+[node name="Heading" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "对战玩家"
+
+[node name="Players" type="VBoxContainer" parent="Content"]
+layout_mode = 2
+theme_override_constants/separation = 3
+
+[node name="Return" type="Button" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 12
+text = "返回我的棋盘"
+visible = false
+
+[node name="StatsToggle" type="Button" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "收起上一战统计 ▴"
+flat = true
+
+[node name="Stats" type="PanelContainer" parent="Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 105)
+size_flags_vertical = 3
+script = ExtResource("Statistics")
+
+[node name="Content" type="VBoxContainer" parent="Content/Stats"]
+layout_mode = 2
+theme_override_constants/separation = 12
+
+[node name="Title" type="Label" parent="Content/Stats/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 16
+text = "上一战"
+
+[node name="Tabs" type="HBoxContainer" parent="Content/Stats/Content"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="damage" type="Button" parent="Content/Stats/Content/Tabs"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+theme_override_font_sizes/font_size = 14
+size_flags_horizontal = 3
+toggle_mode = true
+text = "输出"
+
+[node name="taken" type="Button" parent="Content/Stats/Content/Tabs"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+theme_override_font_sizes/font_size = 14
+size_flags_horizontal = 3
+toggle_mode = true
+text = "承伤"
+
+[node name="healing" type="Button" parent="Content/Stats/Content/Tabs"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+theme_override_font_sizes/font_size = 14
+size_flags_horizontal = 3
+toggle_mode = true
+text = "治疗"
+
+[node name="Empty" type="Label" parent="Content/Stats/Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+text = "完成一场战斗后显示"
+autowrap_mode = 2
+
+[node name="Ranking" type="GridContainer" parent="Content/Stats/Content"]
+layout_mode = 2
+columns = 2
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+
+[node name="Spacer" type="Control" parent="Content/Stats/Content"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Text" type="RichTextLabel" parent="Content/Stats/Content"]
+visible = false
+layout_mode = 2
+theme_override_font_sizes/normal_font_size = 14
+text = "战斗统计\n完成一场战斗后显示"
+scroll_active = true
+
+[node name="Records" type="Button" parent="Content"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+theme_override_font_sizes/font_size = 12
+text = "战斗记录"
+flat = true

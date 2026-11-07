@@ -1,0 +1,236 @@
+[gd_scene load_steps=18 format=3]
+
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="1"]
+[ext_resource type="Texture2D" path="res://assets/ui/moonlit_forest.png" id="2"]
+[ext_resource type="PackedScene" path="res://scenes/ui/top_bar.tscn" id="3"]
+[ext_resource type="PackedScene" path="res://scenes/ui/board_stage.tscn" id="4"]
+[ext_resource type="PackedScene" path="res://scenes/ui/shop_panel.tscn" id="5"]
+[ext_resource type="PackedScene" path="res://scenes/ui/economy_panel.tscn" id="6"]
+[ext_resource type="PackedScene" path="res://scenes/ui/inventory_panel.tscn" id="7"]
+[ext_resource type="PackedScene" path="res://scenes/ui/players_panel.tscn" id="8"]
+[ext_resource type="PackedScene" path="res://scenes/ui/traits_panel.tscn" id="9"]
+[ext_resource type="PackedScene" path="res://scenes/ui/equipment_tools.tscn" id="10"]
+[ext_resource type="PackedScene" path="res://scenes/ui/utility_menu.tscn" id="11"]
+
+[ext_resource type="PackedScene" path="res://scenes/ui/records_panel.tscn" id="12"]
+[ext_resource type="Shader" path="res://assets/ui/materials/board_grid_8x8.gdshader" id="BoardGrid"]
+
+[sub_resource type="ShaderMaterial" id="BoardGrid"]
+shader = ExtResource("BoardGrid")
+
+[sub_resource type="AtlasTexture" id="Horizon"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 1536, 1024)
+
+[sub_resource type="AtlasTexture" id="TreesLeft"]
+atlas = ExtResource("2")
+region = Rect2(0, 0, 300, 1024)
+
+[sub_resource type="AtlasTexture" id="TreesRight"]
+atlas = ExtResource("2")
+region = Rect2(1240, 0, 296, 1024)
+
+[node name="GameScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+mouse_filter = 2
+
+[node name="Horizon" type="TextureRect" parent="."]
+material = SubResource("BoardGrid")
+layout_mode = 1
+anchors_preset = 15
+anchor_left = 0.02
+anchor_right = 0.98
+anchor_bottom = 1.0
+offset_top = -80.0
+texture = SubResource("Horizon")
+expand_mode = 1
+stretch_mode = 6
+modulate = Color(0.70, 0.76, 0.85, 1)
+mouse_filter = 2
+
+[node name="LeftTrees" type="TextureRect" parent="."]
+layout_mode = 1
+anchor_right = 0.02
+anchor_bottom = 1.0
+texture = SubResource("TreesLeft")
+expand_mode = 1
+stretch_mode = 6
+modulate = Color(0.77, 0.81, 0.86, 1)
+mouse_filter = 2
+
+[node name="RightTrees" type="TextureRect" parent="."]
+layout_mode = 1
+anchor_left = 0.98
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = SubResource("TreesRight")
+expand_mode = 1
+stretch_mode = 6
+modulate = Color(0.77, 0.81, 0.86, 1)
+mouse_filter = 2
+
+[node name="Shade" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color(0.015, 0.03, 0.06, 0.12)
+mouse_filter = 2
+
+[node name="DockShade" type="ColorRect" parent="."]
+layout_mode = 1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -178.0
+color = Color(0.015, 0.035, 0.055, 0.88)
+mouse_filter = 2
+
+[node name="Board" parent="." instance=ExtResource("4")]
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 202.0
+offset_top = 80.0
+offset_right = -238.0
+offset_bottom = -176.0
+
+[node name="Opponent" type="Label" parent="."]
+layout_mode = 1
+offset_left = 225.0
+offset_top = 57.0
+offset_right = 625.0
+offset_bottom = 77.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.79, 0.87, 0.89, 1)
+text_overrun_behavior = 3
+mouse_filter = 2
+
+[node name="Traits" parent="." instance=ExtResource("9")]
+layout_mode = 1
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = 142.0
+offset_right = 202.0
+offset_bottom = -310.0
+
+[node name="Players" parent="." instance=ExtResource("8")]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -238.0
+offset_top = 124.0
+offset_right = -16.0
+offset_bottom = -202.0
+
+[node name="Shop" parent="." instance=ExtResource("5")]
+layout_mode = 1
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 218.0
+offset_top = -174.0
+offset_right = -254.0
+offset_bottom = -6.0
+
+[node name="Economy" parent="." instance=ExtResource("6")]
+layout_mode = 1
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_left = 16.0
+offset_top = -212.0
+offset_right = 202.0
+offset_bottom = -12.0
+
+[node name="Inventory" parent="." instance=ExtResource("7")]
+layout_mode = 1
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -238.0
+offset_top = -236.0
+offset_right = -16.0
+offset_bottom = -12.0
+
+[node name="TopBar" parent="." instance=ExtResource("3")]
+layout_mode = 1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -180.0
+offset_right = 180.0
+offset_bottom = 76.0
+
+[node name="Toolbar" type="HBoxContainer" parent="."]
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 114.0
+offset_bottom = 58.0
+
+[node name="Menu" type="Button" parent="Toolbar"]
+layout_mode = 2
+custom_minimum_size = Vector2(44, 42)
+tooltip_text = "棋局菜单：计时操作、存读档、重新开局"
+
+[node name="Pause" type="Button" parent="Toolbar"]
+layout_mode = 2
+custom_minimum_size = Vector2(60, 42)
+theme_override_font_sizes/font_size = 12
+text = "暂停"
+
+[node name="Status" type="Label" parent="."]
+offset_left = 16.0
+offset_top = 75.0
+offset_right = 290.0
+offset_bottom = 96.0
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.66, 0.76, 0.80, 1)
+mouse_filter = 2
+
+[node name="Result" type="Label" parent="."]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -370.0
+offset_top = 22.0
+offset_right = -18.0
+offset_bottom = 47.0
+theme_override_font_sizes/font_size = 13
+horizontal_alignment = 2
+text_overrun_behavior = 3
+mouse_filter = 2
+
+[node name="EquipmentTools" parent="." instance=ExtResource("10")]
+
+[node name="UtilityMenu" parent="." instance=ExtResource("11")]
+
+[node name="Records" parent="." instance=ExtResource("12")]
+
+[node name="ChestPanel" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+visible = false
+
+[node name="Panel" type="PanelContainer" parent="ChestPanel"]
+layout_mode = 2
+
+[node name="Content" type="VBoxContainer" parent="ChestPanel/Panel"]
+layout_mode = 2
+
+[node name="Heading" type="Label" parent="ChestPanel/Panel/Content"]
+layout_mode = 2
+text = "选择本轮战利品"
+horizontal_alignment = 1
+
+[node name="Choices" type="HBoxContainer" parent="ChestPanel/Panel/Content"]
+layout_mode = 2

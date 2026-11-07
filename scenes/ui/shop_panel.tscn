@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="Theme"]
+[ext_resource type="Script" path="res://scripts/ui/streak_indicator.gd" id="Streak"]
+
+[node name="ShopPanel" type="VBoxContainer"]
+theme = ExtResource("Theme")
+theme_override_constants/separation = 5
+
+[node name="Heading" type="HBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Title" type="Label" parent="Heading"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 13
+text = "商店"
+
+[node name="Streak" type="HBoxContainer" parent="Heading"]
+layout_mode = 2
+visible = false
+theme_override_constants/separation = 4
+script = ExtResource("Streak")
+
+[node name="Flame" type="TextureRect" parent="Heading/Streak"]
+layout_mode = 2
+custom_minimum_size = Vector2(18, 20)
+expand_mode = 1
+stretch_mode = 5
+mouse_filter = 2
+
+[node name="Count" type="Label" parent="Heading/Streak"]
+layout_mode = 2
+theme_type_variation = &"HUDNumber"
+theme_override_font_sizes/font_size = 16
+mouse_filter = 2
+
+[node name="LockState" type="Label" parent="Heading"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_font_sizes/font_size = 12
+theme_override_colors/font_color = Color(0.60, 0.71, 0.76, 1)
+text = "下回合自动刷新"
+
+[node name="Lock" type="Button" parent="Heading"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+custom_minimum_size = Vector2(54, 24)
+theme_override_font_sizes/font_size = 12
+text = "锁店"
+flat = true
+
+[node name="Toggle" type="Button" parent="Heading"]
+layout_mode = 2
+theme_type_variation = &"CompactButton"
+custom_minimum_size = Vector2(80, 24)
+theme_override_font_sizes/font_size = 12
+text = "收起商店"
+flat = true
+
+[node name="Cards" type="HBoxContainer" parent="."]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 8

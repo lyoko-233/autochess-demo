@@ -1,0 +1,1946 @@
+{
+  "units": [
+    {
+      "id": "Enchantress",
+      "name": "鹿灵",
+      "slug": "enchantress",
+      "body": "centaur",
+      "skin": "d8aa77",
+      "cloth": "50873d",
+      "weapon": "spear",
+      "identity": [
+        "antlers",
+        "leafhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "leafmantle",
+          "bowcrest"
+        ],
+        [
+          "antlercrown",
+          "leafcape"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/enchantress_star1-3_ingame.png"
+    },
+    {
+      "id": "Tusk",
+      "name": "霜牙",
+      "slug": "tusk",
+      "body": "brute",
+      "skin": "c3d1d5",
+      "cloth": "365980",
+      "weapon": "fist",
+      "identity": [
+        "tusks",
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "gauntlets"
+        ],
+        [
+          "icecrest",
+          "icefists"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/tusk_star1-3_ingame.png"
+    },
+    {
+      "id": "Drow Ranger",
+      "name": "冥弓",
+      "slug": "drow_ranger",
+      "body": "slim",
+      "skin": "94b2c7",
+      "cloth": "223252",
+      "weapon": "bow",
+      "identity": [
+        "hood"
+      ],
+      "tiers": [
+        [],
+        [
+          "splitcape",
+          "quiver"
+        ],
+        [
+          "wingmantle",
+          "moonbow"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/drow_ranger_star1-3_ingame.png"
+    },
+    {
+      "id": "Bounty Hunter",
+      "name": "镖影",
+      "slug": "bounty_hunter",
+      "body": "slim",
+      "skin": "c69a43",
+      "cloth": "963d27",
+      "weapon": "daggers",
+      "identity": [
+        "catmask"
+      ],
+      "tiers": [
+        [],
+        [
+          "scarf",
+          "armblades"
+        ],
+        [
+          "maskcrest",
+          "hookblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/bounty_hunter_star1-3_ingame.png"
+    },
+    {
+      "id": "Clockwerk",
+      "name": "发条卫士",
+      "slug": "clockwerk",
+      "body": "mech",
+      "skin": "7d5532",
+      "cloth": "aa3023",
+      "weapon": "hammer",
+      "identity": [
+        "visor",
+        "gears"
+      ],
+      "tiers": [
+        [],
+        [
+          "boiler",
+          "shoulderplates"
+        ],
+        [
+          "rocketpack",
+          "sawcrest"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/clockwerk_star1-3_ingame.png"
+    },
+    {
+      "id": "Shadow Shaman",
+      "name": "咒变祭司",
+      "slug": "shadow_shaman",
+      "body": "robe",
+      "skin": "a16b34",
+      "cloth": "b58c21",
+      "weapon": "staff",
+      "identity": [
+        "tribalmask"
+      ],
+      "tiers": [
+        [],
+        [
+          "feathercollar",
+          "totems"
+        ],
+        [
+          "feathercrown",
+          "serpentstaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/shadow_shaman_star1-3_ingame.png"
+    },
+    {
+      "id": "Tinker",
+      "name": "飞弹机匠",
+      "slug": "tinker",
+      "body": "mech",
+      "skin": "ae9465",
+      "cloth": "b79838",
+      "weapon": "gun",
+      "identity": [
+        "goggles",
+        "antenna"
+      ],
+      "tiers": [
+        [],
+        [
+          "gunpack",
+          "visor"
+        ],
+        [
+          "rocketpack",
+          "coilgun"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/tinker_star1-3_ingame.png"
+    },
+    {
+      "id": "Anti-Mage",
+      "name": "破魔双刃",
+      "slug": "anti_mage",
+      "body": "slim",
+      "skin": "b0869f",
+      "cloth": "664b96",
+      "weapon": "dualblade",
+      "identity": [
+        "mohawk"
+      ],
+      "tiers": [
+        [],
+        [
+          "armblades",
+          "sash"
+        ],
+        [
+          "bladecrest",
+          "moonblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/anti_mage_star1-3_ingame.png"
+    },
+    {
+      "id": "Tiny",
+      "name": "磐岩",
+      "slug": "tiny",
+      "body": "golem",
+      "skin": "8d9383",
+      "cloth": "686e61",
+      "weapon": "rock",
+      "identity": [
+        "stonebrow"
+      ],
+      "tiers": [
+        [],
+        [
+          "shoulderboulders",
+          "moss"
+        ],
+        [
+          "crystalspine",
+          "treeclub"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/tiny_star1-3_ingame.png"
+    },
+    {
+      "id": "Witch Doctor",
+      "name": "巫毒使",
+      "slug": "witch_doctor",
+      "body": "slim",
+      "skin": "83539c",
+      "cloth": "877634",
+      "weapon": "staff",
+      "identity": [
+        "tribalmask",
+        "beads"
+      ],
+      "tiers": [
+        [],
+        [
+          "bonecollar",
+          "totems"
+        ],
+        [
+          "bonecrown",
+          "skullstaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/witch_doctor_star1-3_ingame.png"
+    },
+    {
+      "id": "Winter Wyvern",
+      "name": "霜翼",
+      "slug": "winter_wyvern",
+      "body": "dragon",
+      "skin": "57aec4",
+      "cloth": "273f84",
+      "weapon": "claw",
+      "identity": [
+        "icewings"
+      ],
+      "tiers": [
+        [],
+        [
+          "icecrest",
+          "wingarmor"
+        ],
+        [
+          "icecrown",
+          "crystalspine"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/winter_wyvern_star1-3_ingame.png"
+    },
+    {
+      "id": "Mars",
+      "name": "神盾卫士",
+      "slug": "mars",
+      "body": "brute",
+      "skin": "c7a27b",
+      "cloth": "a24432",
+      "weapon": "spear",
+      "identity": [
+        "crestedhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "roundshield",
+          "bronzeplates"
+        ],
+        [
+          "towerShield",
+          "warbanner"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/mars_star1-3_ingame.png"
+    },
+    {
+      "id": "Lion",
+      "name": "蚀魔巫师",
+      "slug": "lion",
+      "body": "brute",
+      "skin": "af645f",
+      "cloth": "772c66",
+      "weapon": "claw",
+      "identity": [
+        "demonhand",
+        "horns"
+      ],
+      "tiers": [
+        [],
+        [
+          "bonecollar",
+          "armblades"
+        ],
+        [
+          "horncrown",
+          "demonclaw"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/lion_star1-3_ingame.png"
+    },
+    {
+      "id": "Beastmaster",
+      "name": "驭兽猎手",
+      "slug": "beastmaster",
+      "body": "brute",
+      "skin": "be9266",
+      "cloth": "6d4530",
+      "weapon": "axes",
+      "identity": [
+        "beard",
+        "boarhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "gauntlets"
+        ],
+        [
+          "tuskcrown",
+          "twinaxes"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/beastmaster_star1-3_ingame.png"
+    },
+    {
+      "id": "Juggernaut",
+      "name": "旋刃武者",
+      "slug": "juggernaut",
+      "body": "slim",
+      "skin": "cba681",
+      "cloth": "b64a31",
+      "weapon": "katana",
+      "identity": [
+        "whitemask"
+      ],
+      "tiers": [
+        [],
+        [
+          "sash",
+          "lamellar"
+        ],
+        [
+          "maskcrest",
+          "warbanner"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/juggernaut_star1-3_ingame.png"
+    },
+    {
+      "id": "Timbersaw",
+      "name": "锯轮机甲",
+      "slug": "timbersaw",
+      "body": "mech",
+      "skin": "72916c",
+      "cloth": "975633",
+      "weapon": "saw",
+      "identity": [
+        "cockpit",
+        "gears"
+      ],
+      "tiers": [
+        [],
+        [
+          "sawarms",
+          "boiler"
+        ],
+        [
+          "sawcrest",
+          "bladecage"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/timbersaw_star1-3_ingame.png"
+    },
+    {
+      "id": "Puck",
+      "name": "幻翼",
+      "slug": "puck",
+      "body": "dragon",
+      "skin": "8793d9",
+      "cloth": "a051bc",
+      "weapon": "orb",
+      "identity": [
+        "fairywings"
+      ],
+      "tiers": [
+        [],
+        [
+          "fincrest",
+          "pearls"
+        ],
+        [
+          "butterflycrest",
+          "crystalspine"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/puck_star1-3_ingame.png"
+    },
+    {
+      "id": "Chaos Knight",
+      "name": "混沌铁骑",
+      "slug": "chaos_knight",
+      "body": "mounted",
+      "skin": "9e6d53",
+      "cloth": "542b29",
+      "weapon": "sword",
+      "identity": [
+        "hornhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "horsearmor",
+          "shoulderplates"
+        ],
+        [
+          "horncrown",
+          "warbanner"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/chaos_knight_star1-3_ingame.png"
+    },
+    {
+      "id": "Luna",
+      "name": "月刃骑手",
+      "slug": "luna",
+      "body": "mounted",
+      "skin": "a2acc7",
+      "cloth": "2b4689",
+      "weapon": "glaive",
+      "identity": [
+        "moonhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "moonshield",
+          "horsearmor"
+        ],
+        [
+          "mooncrown",
+          "moonblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/luna_star1-3_ingame.png"
+    },
+    {
+      "id": "Nature's Prophet",
+      "name": "唤林者",
+      "slug": "natures_prophet",
+      "body": "slim",
+      "skin": "b69d75",
+      "cloth": "476d34",
+      "weapon": "staff",
+      "identity": [
+        "antlers",
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "leafmantle",
+          "totems"
+        ],
+        [
+          "antlercrown",
+          "treestaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/natures_prophet_star1-3_ingame.png"
+    },
+    {
+      "id": "Morphling",
+      "name": "涌潮影刃",
+      "slug": "morphling",
+      "body": "spirit",
+      "skin": "37aaca",
+      "cloth": "235aa7",
+      "weapon": "wave",
+      "identity": [
+        "watercrest"
+      ],
+      "tiers": [
+        [],
+        [
+          "fins",
+          "pearls"
+        ],
+        [
+          "wavecrown",
+          "tidalblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/morphling_star1-3_ingame.png"
+    },
+    {
+      "id": "Batrider",
+      "name": "蝠翼骑手",
+      "slug": "batrider",
+      "body": "flying_rider",
+      "skin": "ab9469",
+      "cloth": "874a2a",
+      "weapon": "lasso",
+      "identity": [
+        "goggles"
+      ],
+      "tiers": [
+        [],
+        [
+          "saddlepack",
+          "wingarmor"
+        ],
+        [
+          "rocketpack",
+          "batcrest"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/batrider_star1-3_ingame.png"
+    },
+    {
+      "id": "Rubick",
+      "name": "窃法神使",
+      "slug": "rubick",
+      "body": "robe",
+      "skin": "82a184",
+      "cloth": "285d3f",
+      "weapon": "staff",
+      "identity": [
+        "hood"
+      ],
+      "tiers": [
+        [],
+        [
+          "splitcape",
+          "runepauldron"
+        ],
+        [
+          "maskcrest",
+          "cubestaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/rubick_star1-3_ingame.png"
+    },
+    {
+      "id": "Oracle",
+      "name": "星谕祭司",
+      "slug": "oracle",
+      "body": "spirit",
+      "skin": "b9a777",
+      "cloth": "325e87",
+      "weapon": "orb",
+      "identity": [
+        "longmask"
+      ],
+      "tiers": [
+        [],
+        [
+          "splitcape",
+          "pearls"
+        ],
+        [
+          "halocrown",
+          "orbframe"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/oracle_star1-3_ingame.png"
+    },
+    {
+      "id": "Ogre Magi",
+      "name": "巨棒法师",
+      "slug": "ogre_magi",
+      "body": "brute",
+      "skin": "699fcb",
+      "cloth": "993f27",
+      "weapon": "club",
+      "identity": [
+        "twoheads"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "gauntlets"
+        ],
+        [
+          "twinhelms",
+          "fireclub"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/ogre_magi_star1-3_ingame.png"
+    },
+    {
+      "id": "Lycan",
+      "name": "化狼战士",
+      "slug": "lycan",
+      "body": "brute",
+      "skin": "b28369",
+      "cloth": "622f32",
+      "weapon": "claw",
+      "identity": [
+        "wolfmane"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "armblades"
+        ],
+        [
+          "wolfcrown",
+          "clawgauntlets"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/lycan_star1-3_ingame.png"
+    },
+    {
+      "id": "Venomancer",
+      "name": "毒棘虫巫",
+      "slug": "venomancer",
+      "body": "serpent",
+      "skin": "bcaa37",
+      "cloth": "63882f",
+      "weapon": "spit",
+      "identity": [
+        "cobrahood"
+      ],
+      "tiers": [
+        [],
+        [
+          "fins",
+          "venomsacs"
+        ],
+        [
+          "spinecrown",
+          "venomcrest"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/venomancer_star1-3_ingame.png"
+    },
+    {
+      "id": "Omniknight",
+      "name": "圣锤骑士",
+      "slug": "omniknight",
+      "body": "brute",
+      "skin": "c3aa83",
+      "cloth": "d2bd83",
+      "weapon": "hammer",
+      "identity": [
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "silvercuirass",
+          "roundshield"
+        ],
+        [
+          "halocrown",
+          "wingmantle"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/omniknight_star1-3_ingame.png"
+    },
+    {
+      "id": "Razor",
+      "name": "雷鞭",
+      "slug": "razor",
+      "body": "spirit",
+      "skin": "5a83bd",
+      "cloth": "202f51",
+      "weapon": "whip",
+      "identity": [
+        "razorhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "lamellar",
+          "coilpack"
+        ],
+        [
+          "bladecrest",
+          "stormcrown"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/razor_star1-3_ingame.png"
+    },
+    {
+      "id": "Windranger",
+      "name": "翠弓",
+      "slug": "windranger",
+      "body": "slim",
+      "skin": "d5a582",
+      "cloth": "478544",
+      "weapon": "bow",
+      "identity": [
+        "redhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "leafmantle",
+          "quiver"
+        ],
+        [
+          "feathercrown",
+          "leafbow"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/windranger_star1-3_ingame.png"
+    },
+    {
+      "id": "Abaddon",
+      "name": "冥甲骑士",
+      "slug": "abaddon",
+      "body": "mounted",
+      "skin": "71a7bb",
+      "cloth": "2f4259",
+      "weapon": "sword",
+      "identity": [
+        "hood"
+      ],
+      "tiers": [
+        [],
+        [
+          "horsearmor",
+          "roundshield"
+        ],
+        [
+          "horncrown",
+          "spineblade"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/abaddon_star1-3_ingame.png"
+    },
+    {
+      "id": "Sand King",
+      "name": "沙螯",
+      "slug": "sand_king",
+      "body": "insect",
+      "skin": "b78d3c",
+      "cloth": "795b28",
+      "weapon": "pincers",
+      "identity": [
+        "stinger"
+      ],
+      "tiers": [
+        [],
+        [
+          "carapace",
+          "armblades"
+        ],
+        [
+          "spinecrown",
+          "giantpincers"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/sand_king_star1-3_ingame.png"
+    },
+    {
+      "id": "Viper",
+      "name": "毒翼",
+      "slug": "viper",
+      "body": "dragon",
+      "skin": "69a741",
+      "cloth": "3c672e",
+      "weapon": "spit",
+      "identity": [
+        "venomwings"
+      ],
+      "tiers": [
+        [],
+        [
+          "venomsacs",
+          "wingarmor"
+        ],
+        [
+          "spinecrown",
+          "venomcrest"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/viper_star1-3_ingame.png"
+    },
+    {
+      "id": "Shadow Fiend",
+      "name": "噬魂魔",
+      "slug": "shadow_fiend",
+      "body": "spirit",
+      "skin": "86231d",
+      "cloth": "251c23",
+      "weapon": "claw",
+      "identity": [
+        "horns",
+        "fangs"
+      ],
+      "tiers": [
+        [],
+        [
+          "ribcage",
+          "armblades"
+        ],
+        [
+          "horncrown",
+          "demonclaw"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/shadow_fiend_star1-3_ingame.png"
+    },
+    {
+      "id": "Lina",
+      "name": "焰心法师",
+      "slug": "lina",
+      "body": "slim",
+      "skin": "e0aa80",
+      "cloth": "c54926",
+      "weapon": "flame",
+      "identity": [
+        "redhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "sash",
+          "splitcape"
+        ],
+        [
+          "flamecrown",
+          "wingmantle"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/lina_star1-3_ingame.png"
+    },
+    {
+      "id": "Terrorblade",
+      "name": "魔翼双刃",
+      "slug": "terrorblade",
+      "body": "slim",
+      "skin": "677a9a",
+      "cloth": "253951",
+      "weapon": "dualblade",
+      "identity": [
+        "horns",
+        "demonwings"
+      ],
+      "tiers": [
+        [],
+        [
+          "wingarmor",
+          "lamellar"
+        ],
+        [
+          "horncrown",
+          "moonblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/terrorblade_star1-3_ingame.png"
+    },
+    {
+      "id": "Dazzle",
+      "name": "护命祭司",
+      "slug": "dazzle",
+      "body": "robe",
+      "skin": "b46baf",
+      "cloth": "8c547a",
+      "weapon": "staff",
+      "identity": [
+        "mohawk",
+        "beads"
+      ],
+      "tiers": [
+        [],
+        [
+          "bonecollar",
+          "splitcape"
+        ],
+        [
+          "bonecrown",
+          "skullstaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/dazzle_star1-3_ingame.png"
+    },
+    {
+      "id": "Pudge",
+      "name": "腐钩",
+      "slug": "pudge",
+      "body": "brute",
+      "skin": "ada880",
+      "cloth": "6b4038",
+      "weapon": "hook",
+      "identity": [
+        "belly",
+        "stitches"
+      ],
+      "tiers": [
+        [],
+        [
+          "apron",
+          "chainbelt"
+        ],
+        [
+          "cleavermantle",
+          "meathook"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/pudge_star1-3_ingame.png"
+    },
+    {
+      "id": "Treant Protector",
+      "name": "古木卫士",
+      "slug": "treant_protector",
+      "body": "golem",
+      "skin": "82663a",
+      "cloth": "496637",
+      "weapon": "branch",
+      "identity": [
+        "treeface"
+      ],
+      "tiers": [
+        [],
+        [
+          "moss",
+          "leafmantle"
+        ],
+        [
+          "antlercrown",
+          "treeclub"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/treant_protector_star1-3_ingame.png"
+    },
+    {
+      "id": "Doom",
+      "name": "禁咒魔卫",
+      "slug": "doom",
+      "body": "brute",
+      "skin": "a54528",
+      "cloth": "38282c",
+      "weapon": "sword",
+      "identity": [
+        "horns",
+        "hooves"
+      ],
+      "tiers": [
+        [],
+        [
+          "ribcage",
+          "shoulderplates"
+        ],
+        [
+          "horncrown",
+          "spineblade"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/doom_star1-3_ingame.png"
+    },
+    {
+      "id": "Kunkka",
+      "name": "幽舰船长",
+      "slug": "kunkka",
+      "body": "brute",
+      "skin": "c2a083",
+      "cloth": "2a6282",
+      "weapon": "sword",
+      "identity": [
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "admiralcoat",
+          "hat"
+        ],
+        [
+          "captaincrest",
+          "warbanner"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/kunkka_star1-3_ingame.png"
+    },
+    {
+      "id": "Troll Warlord",
+      "name": "双斧狂徒",
+      "slug": "troll_warlord",
+      "body": "brute",
+      "skin": "71a6a4",
+      "cloth": "a5442d",
+      "weapon": "axes",
+      "identity": [
+        "tusks",
+        "mohawk"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "lamellar"
+        ],
+        [
+          "tuskcrown",
+          "twinaxes"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/troll_warlord_star1-3_ingame.png"
+    },
+    {
+      "id": "Keeper of the Light",
+      "name": "御光法师",
+      "slug": "keeper_of_the_light",
+      "body": "mounted",
+      "skin": "cfbb99",
+      "cloth": "c8bb89",
+      "weapon": "staff",
+      "identity": [
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "horsearmor",
+          "splitcape"
+        ],
+        [
+          "halocrown",
+          "sunstaff"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/keeper_of_the_light_star1-3_ingame.png"
+    },
+    {
+      "id": "Necrophos",
+      "name": "瘟镰术士",
+      "slug": "necrophos",
+      "body": "robe",
+      "skin": "799c73",
+      "cloth": "395338",
+      "weapon": "scythe",
+      "identity": [
+        "hood"
+      ],
+      "tiers": [
+        [],
+        [
+          "ribcage",
+          "splitcape"
+        ],
+        [
+          "bonecrown",
+          "spinescythe"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/necrophos_star1-3_ingame.png"
+    },
+    {
+      "id": "Templar Assassin",
+      "name": "灵刃刺客",
+      "slug": "templar_assassin",
+      "body": "slim",
+      "skin": "b98fb4",
+      "cloth": "744486",
+      "weapon": "psiblades",
+      "identity": [
+        "veil"
+      ],
+      "tiers": [
+        [],
+        [
+          "armblades",
+          "splitcape"
+        ],
+        [
+          "maskcrest",
+          "psiwings"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/templar_assassin_star1-3_ingame.png"
+    },
+    {
+      "id": "Alchemist",
+      "name": "狂酿术士",
+      "slug": "alchemist",
+      "body": "brute",
+      "skin": "8fa064",
+      "cloth": "78643b",
+      "weapon": "flask",
+      "identity": [
+        "goblinrider"
+      ],
+      "tiers": [
+        [],
+        [
+          "apron",
+          "boiler"
+        ],
+        [
+          "coilpack",
+          "chembackpack"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/alchemist_star1-3_ingame.png"
+    },
+    {
+      "id": "Disruptor",
+      "name": "雷笼萨满",
+      "slug": "disruptor",
+      "body": "mounted",
+      "skin": "8fa6a8",
+      "cloth": "79472f",
+      "weapon": "staff",
+      "identity": [
+        "redhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "saddlepack",
+          "coilpack"
+        ],
+        [
+          "stormcrown",
+          "coilgun"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/disruptor_star1-3_ingame.png"
+    },
+    {
+      "id": "Medusa",
+      "name": "石瞳蛇弓",
+      "slug": "medusa",
+      "body": "serpent",
+      "skin": "91ab66",
+      "cloth": "39655a",
+      "weapon": "bow",
+      "identity": [
+        "snakehair"
+      ],
+      "tiers": [
+        [],
+        [
+          "lamellar",
+          "quiver"
+        ],
+        [
+          "snakecrown",
+          "moonbow"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/medusa_star1-3_ingame.png"
+    },
+    {
+      "id": "Dragon Knight",
+      "name": "龙血铁骑",
+      "slug": "dragon_knight",
+      "body": "brute",
+      "skin": "b18a73",
+      "cloth": "9e3024",
+      "weapon": "sword",
+      "identity": [
+        "dragonhelm"
+      ],
+      "tiers": [
+        [],
+        [
+          "dragonshield",
+          "lamellar"
+        ],
+        [
+          "dragoncrown",
+          "wingmantle"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/dragon_knight_star1-3_ingame.png"
+    },
+    {
+      "id": "Lone Druid",
+      "name": "唤熊长老",
+      "slug": "lone_druid",
+      "body": "brute",
+      "skin": "a19075",
+      "cloth": "6b573a",
+      "weapon": "claw",
+      "identity": [
+        "beard",
+        "wolfmane"
+      ],
+      "tiers": [
+        [],
+        [
+          "furcollar",
+          "totems"
+        ],
+        [
+          "antlercrown",
+          "clawgauntlets"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/lone_druid_star1-3_ingame.png"
+    },
+    {
+      "id": "Visage",
+      "name": "魂翼",
+      "slug": "visage",
+      "body": "dragon",
+      "skin": "608e9c",
+      "cloth": "344f62",
+      "weapon": "claw",
+      "identity": [
+        "stonewings"
+      ],
+      "tiers": [
+        [],
+        [
+          "wingarmor",
+          "carapace"
+        ],
+        [
+          "bonecrown",
+          "crystalspine"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/visage_star1-3_ingame.png"
+    },
+    {
+      "id": "Grimstroke",
+      "name": "墨咒师",
+      "slug": "grimstroke",
+      "body": "robe",
+      "skin": "c6bba6",
+      "cloth": "592334",
+      "weapon": "brush",
+      "identity": [
+        "longmask"
+      ],
+      "tiers": [
+        [],
+        [
+          "splitcape",
+          "inkgourd"
+        ],
+        [
+          "maskcrest",
+          "brushcrown"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/grimstroke_star1-3_ingame.png"
+    },
+    {
+      "id": "Nyx Assassin",
+      "name": "夜甲",
+      "slug": "nyx_assassin",
+      "body": "insect",
+      "skin": "b19055",
+      "cloth": "453658",
+      "weapon": "pincers",
+      "identity": [
+        "beetlehorn"
+      ],
+      "tiers": [
+        [],
+        [
+          "carapace",
+          "armblades"
+        ],
+        [
+          "bladecrest",
+          "giantpincers"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/nyx_assassin_star1-3_ingame.png"
+    },
+    {
+      "id": "Gyrocopter",
+      "name": "旋翼机匠",
+      "slug": "gyrocopter",
+      "body": "aircraft",
+      "skin": "b4a789",
+      "cloth": "ae8335",
+      "weapon": "gun",
+      "identity": [
+        "rotor",
+        "goggles"
+      ],
+      "tiers": [
+        [],
+        [
+          "gunpack",
+          "wingarmor"
+        ],
+        [
+          "rocketpack",
+          "coilgun"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/gyrocopter_star1-3_ingame.png"
+    },
+    {
+      "id": "Enigma",
+      "name": "虚空术士",
+      "slug": "enigma",
+      "body": "spirit",
+      "skin": "7373b4",
+      "cloth": "29233f",
+      "weapon": "orb",
+      "identity": [
+        "voidface"
+      ],
+      "tiers": [
+        [],
+        [
+          "orbframe",
+          "runepauldron"
+        ],
+        [
+          "halocrown",
+          "voidcrown"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/enigma_star1-3_ingame.png"
+    },
+    {
+      "id": "Techies",
+      "name": "爆桶机匠",
+      "slug": "techies",
+      "body": "cart",
+      "skin": "a69972",
+      "cloth": "975f32",
+      "weapon": "bomb",
+      "identity": [
+        "goblinrider",
+        "barrels"
+      ],
+      "tiers": [
+        [],
+        [
+          "saddlepack",
+          "gunpack"
+        ],
+        [
+          "rocketpack",
+          "blastshield"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/techies_star1-3_ingame.png"
+    },
+    {
+      "id": "Death Prophet",
+      "name": "群魂女巫",
+      "slug": "death_prophet",
+      "body": "robe",
+      "skin": "8cc6b0",
+      "cloth": "43665e",
+      "weapon": "ghost",
+      "identity": [
+        "redhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "splitcape",
+          "bonecollar"
+        ],
+        [
+          "bonecrown",
+          "ghostmantle"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/death_prophet_star1-3_ingame.png"
+    },
+    {
+      "id": "Sven",
+      "name": "魔铠重剑",
+      "slug": "sven",
+      "body": "brute",
+      "skin": "718ba2",
+      "cloth": "234e88",
+      "weapon": "greatsword",
+      "identity": [
+        "visor"
+      ],
+      "tiers": [
+        [],
+        [
+          "silvercuirass",
+          "shoulderplates"
+        ],
+        [
+          "bladecrest",
+          "giantblade"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/sven_star1-3_ingame.png"
+    },
+    {
+      "id": "Zeus",
+      "name": "雷霆神使",
+      "slug": "zeus",
+      "body": "brute",
+      "skin": "d1b597",
+      "cloth": "527299",
+      "weapon": "bolt",
+      "identity": [
+        "beard"
+      ],
+      "tiers": [
+        [],
+        [
+          "sash",
+          "bronzeplates"
+        ],
+        [
+          "stormcrown",
+          "halocrown"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/zeus_star1-3_ingame.png"
+    },
+    {
+      "id": "Io",
+      "name": "浮光灵核",
+      "slug": "io",
+      "body": "orb",
+      "skin": "8bcfe0",
+      "cloth": "406d96",
+      "weapon": "orb",
+      "identity": [
+        "orbitwisps"
+      ],
+      "tiers": [
+        [],
+        [
+          "orbframe",
+          "pearls"
+        ],
+        [
+          "orbitcrown",
+          "voidcrown"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/io_star1-3_ingame.png"
+    },
+    {
+      "id": "Slardar",
+      "name": "三叉海将",
+      "slug": "slardar",
+      "body": "serpent",
+      "skin": "986c9e",
+      "cloth": "6d4576",
+      "weapon": "trident",
+      "identity": [
+        "fishcrest"
+      ],
+      "tiers": [
+        [],
+        [
+          "fins",
+          "lamellar"
+        ],
+        [
+          "fincrest",
+          "tidalblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/slardar_star1-3_ingame.png"
+    },
+    {
+      "id": "Queen of Pain",
+      "name": "魅刃",
+      "slug": "queen_of_pain",
+      "body": "slim",
+      "skin": "b78594",
+      "cloth": "792637",
+      "weapon": "daggers",
+      "identity": [
+        "horns",
+        "demonwings"
+      ],
+      "tiers": [
+        [],
+        [
+          "wingarmor",
+          "armblades"
+        ],
+        [
+          "horncrown",
+          "hookblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/queen_of_pain_star1-3_ingame.png"
+    },
+    {
+      "id": "Slark",
+      "name": "潜鳞",
+      "slug": "slark",
+      "body": "slim",
+      "skin": "7daca8",
+      "cloth": "314b6a",
+      "weapon": "daggers",
+      "identity": [
+        "fishcrest",
+        "fangs"
+      ],
+      "tiers": [
+        [],
+        [
+          "scarf",
+          "armblades"
+        ],
+        [
+          "fincrest",
+          "hookblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/slark_star1-3_ingame.png"
+    },
+    {
+      "id": "Mirana",
+      "name": "逐月弓手",
+      "slug": "mirana",
+      "body": "mounted",
+      "skin": "c5ad98",
+      "cloth": "44728f",
+      "weapon": "bow",
+      "identity": [
+        "longhair"
+      ],
+      "tiers": [
+        [],
+        [
+          "horsearmor",
+          "quiver"
+        ],
+        [
+          "mooncrown",
+          "moonbow"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/mirana_star1-3_ingame.png"
+    },
+    {
+      "id": "Lich",
+      "name": "霜骨法师",
+      "slug": "lich",
+      "body": "robe",
+      "skin": "8da9bc",
+      "cloth": "343c76",
+      "weapon": "orb",
+      "identity": [
+        "skullface"
+      ],
+      "tiers": [
+        [],
+        [
+          "ribcage",
+          "splitcape"
+        ],
+        [
+          "icecrown",
+          "ghostmantle"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/lich_star1-3_ingame.png"
+    },
+    {
+      "id": "Riki",
+      "name": "雾刃",
+      "slug": "riki",
+      "body": "slim",
+      "skin": "8c80b4",
+      "cloth": "454270",
+      "weapon": "daggers",
+      "identity": [
+        "horns",
+        "goatee"
+      ],
+      "tiers": [
+        [],
+        [
+          "scarf",
+          "armblades"
+        ],
+        [
+          "maskcrest",
+          "hookblades"
+        ]
+      ],
+      "reference": "../../../../type/ingame/roster/riki_star1-3_ingame.png"
+    }
+  ],
+  "monsters": [
+    {
+      "id": "melee_creep",
+      "name": "近战小兵",
+      "slug": "melee_creep",
+      "body": "brute",
+      "skin": "9a8260",
+      "cloth": "763c2c",
+      "weapon": "sword",
+      "identity": [
+        "crestedhelm"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.0,
+      "note": "持剑小兵，布甲窄肩"
+    },
+    {
+      "id": "ranged_creep",
+      "name": "远程小兵",
+      "slug": "ranged_creep",
+      "body": "slim",
+      "skin": "9a8260",
+      "cloth": "536a3b",
+      "weapon": "staff",
+      "identity": [
+        "hood"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.0,
+      "note": "兜帽远程小兵，长杖明确区分近战"
+    },
+    {
+      "id": "enhanced_creep",
+      "name": "强化小兵",
+      "slug": "enhanced_creep",
+      "body": "brute",
+      "skin": "92775b",
+      "cloth": "713229",
+      "weapon": "greatsword",
+      "identity": [
+        "hornhelm",
+        "shoulderplates"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.25,
+      "note": "强化小兵，厚肩甲与宽刃"
+    },
+    {
+      "id": "small_golem",
+      "name": "小石人",
+      "slug": "small_golem",
+      "body": "golem",
+      "skin": "8e9387",
+      "cloth": "686f66",
+      "weapon": "rock",
+      "identity": [
+        "stonebrow"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.0,
+      "note": "小石像，碎岩肩和青色眼缝"
+    },
+    {
+      "id": "large_golem",
+      "name": "大石人",
+      "slug": "large_golem",
+      "body": "golem",
+      "skin": "858c7e",
+      "cloth": "60685d",
+      "weapon": "rock",
+      "identity": [
+        "stonebrow",
+        "crystalspine"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.45,
+      "note": "大石像，巨肩与背部岩晶"
+    },
+    {
+      "id": "wolf",
+      "name": "狼",
+      "slug": "wolf",
+      "body": "quadruped",
+      "skin": "737c83",
+      "cloth": "4d565f",
+      "weapon": "claw",
+      "identity": [
+        "wolfmane"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.0,
+      "note": "灰狼，长吻尖耳与横向躯干"
+    },
+    {
+      "id": "alpha_wolf",
+      "name": "狼王",
+      "slug": "alpha_wolf",
+      "body": "quadruped",
+      "skin": "bec2bd",
+      "cloth": "7c8891",
+      "weapon": "claw",
+      "identity": [
+        "wolfmane",
+        "spinecrown"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.2,
+      "note": "头狼，白色毛皮和高鬃背"
+    },
+    {
+      "id": "bear",
+      "name": "熊怪",
+      "slug": "bear",
+      "body": "quadruped",
+      "skin": "98724b",
+      "cloth": "604833",
+      "weapon": "claw",
+      "identity": [
+        "furcollar"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.25,
+      "note": "熊怪，圆耳短吻、厚前爪"
+    },
+    {
+      "id": "bird",
+      "name": "飞鸟",
+      "slug": "bird",
+      "body": "bird",
+      "skin": "998363",
+      "cloth": "c4ad7a",
+      "weapon": "claw",
+      "identity": [
+        "feathercrown"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.2,
+      "note": "枭兽，喙、分层羽翼、双足"
+    },
+    {
+      "id": "small_thunder_lizard",
+      "name": "小雷蜥",
+      "slug": "small_thunder_lizard",
+      "body": "quadruped",
+      "skin": "698e7c",
+      "cloth": "375a59",
+      "weapon": "claw",
+      "identity": [
+        "fins"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.1,
+      "note": "小雷蜥，低矮鳞甲与长尾"
+    },
+    {
+      "id": "large_thunder_lizard",
+      "name": "大雷蜥",
+      "slug": "large_thunder_lizard",
+      "body": "quadruped",
+      "skin": "638278",
+      "cloth": "304f57",
+      "weapon": "claw",
+      "identity": [
+        "fins",
+        "crystalspine"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.45,
+      "note": "大雷蜥，背部电晶与角冠"
+    },
+    {
+      "id": "black_dragon",
+      "name": "黑龙",
+      "slug": "black_dragon",
+      "body": "dragon",
+      "skin": "3c3747",
+      "cloth": "712e2b",
+      "weapon": "claw",
+      "identity": [
+        "demonwings",
+        "horns"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.65,
+      "note": "黑龙，宽翼、长颈、角和尾"
+    },
+    {
+      "id": "fire_troll",
+      "name": "火巨魔",
+      "slug": "fire_troll",
+      "body": "slim",
+      "skin": "ba7650",
+      "cloth": "9b3e25",
+      "weapon": "staff",
+      "identity": [
+        "tusks",
+        "flamecrown"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.15,
+      "note": "火巨魔，橙红杖头和羽冠"
+    },
+    {
+      "id": "ice_troll",
+      "name": "冰巨魔",
+      "slug": "ice_troll",
+      "body": "slim",
+      "skin": "7cbbc3",
+      "cloth": "315d86",
+      "weapon": "staff",
+      "identity": [
+        "tusks",
+        "icecrest"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.15,
+      "note": "冰巨魔，冰晶杖与蓝色护肩"
+    },
+    {
+      "id": "axe_troll",
+      "name": "斧巨魔",
+      "slug": "axe_troll",
+      "body": "brute",
+      "skin": "88aa9c",
+      "cloth": "65523a",
+      "weapon": "axes",
+      "identity": [
+        "tusks",
+        "mohawk"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.2,
+      "note": "斧巨魔，双斧、獠牙与背带"
+    },
+    {
+      "id": "nian",
+      "name": "年兽",
+      "slug": "nian",
+      "body": "quadruped",
+      "skin": "a6352a",
+      "cloth": "bf8638",
+      "weapon": "claw",
+      "identity": [
+        "antlers",
+        "wolfmane",
+        "fangs"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 1.8,
+      "note": "年兽，红鬃、鹿角、金鳞与狮头"
+    },
+    {
+      "id": "roshan",
+      "name": "Roshan",
+      "slug": "roshan",
+      "body": "brute",
+      "skin": "77665b",
+      "cloth": "4d4542",
+      "weapon": "claw",
+      "identity": [
+        "horns",
+        "fangs",
+        "stonewings"
+      ],
+      "tiers": [
+        [],
+        [],
+        []
+      ],
+      "size": 2.0,
+      "note": "Roshan，驼背巨肩、背翼、角与重爪"
+    }
+  ]
+}

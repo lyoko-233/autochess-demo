@@ -1,0 +1,67 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource type="Theme" path="res://assets/ui/game_theme.tres" id="Theme"]
+[node name="EconomyPanel" type="PanelContainer"]
+theme = ExtResource("Theme")
+
+[node name="Content" type="VBoxContainer" parent="."]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Summary" type="Label" parent="Content"]
+layout_mode = 2
+theme_type_variation = &"HUDHeading"
+theme_override_font_sizes/font_size = 22
+text = "等级 1"
+
+[node name="Experience" type="ProgressBar" parent="Content"]
+layout_mode = 2
+custom_minimum_size = Vector2(0, 6)
+show_percentage = false
+
+[node name="XPLabel" type="Label" parent="Content"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.64, 0.75, 0.78, 1)
+text = "经验 0 / 1"
+
+[node name="BuyXP" type="Button" parent="Content"]
+layout_mode = 2
+text = "购经验"
+alignment = 0
+custom_minimum_size = Vector2(0, 40)
+theme_override_font_sizes/font_size = 16
+
+[node name="Price" type="Label" parent="Content/BuyXP"]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -30.0
+offset_right = -10.0
+theme_type_variation = &"HUDNumber"
+theme_override_colors/font_color = Color(0.93, 0.76, 0.39, 1)
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2
+text = "5"
+
+[node name="Refresh" type="Button" parent="Content"]
+layout_mode = 2
+text = "刷新"
+alignment = 0
+custom_minimum_size = Vector2(0, 40)
+theme_override_font_sizes/font_size = 16
+
+[node name="Price" type="Label" parent="Content/Refresh"]
+layout_mode = 1
+anchor_left = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -30.0
+offset_right = -10.0
+theme_type_variation = &"HUDNumber"
+theme_override_colors/font_color = Color(0.93, 0.76, 0.39, 1)
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2
+text = "2"

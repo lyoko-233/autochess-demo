@@ -1,0 +1,8 @@
+.godot/
+*.tmp
+*.log
+export_templates/
+exports/
+*.exe
+*.pck
+*.zip
